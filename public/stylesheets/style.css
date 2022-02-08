@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#home-body {
+    background-image: url('/images/JusrRaceIt.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #bcffdd;
+    display: flex;
+    justify-content: space-around;    
+}
+
+a {
+    margin-top: 850px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: #386673;
+    /*#386673*/
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: #2c4d57;
+}
+
+#text-link {
+    font-size: 16px;
+}
+#about-body {
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #bcffdd;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #193741;
+
+    width:40vw;
+    margin-left:30vw;
+    line-height:3vh;
+    
+    margin-top: 22vh;
+    
+}
+
+#works-body{
+    background-image: url('/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #bcffdd;
+    margin-top:100px;
+    margin-top: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 20vh;
+
+}
+
+#work-img {
+    border-radius: 20px;
+}
+
+#game-link {
+    margin: 20px;
+}
+
+#home-link {
+    margin-top: 2vw;
+    margin-left: 30vh;
+}
